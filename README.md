@@ -4,7 +4,7 @@
 **Decoder terimi, özellikle dil modelleri ve yapay zeka alanında sıkça kullanılır. Örneğin, bir dil modeli (örneğin, bir metin oluşturan veya anlam çıkaran bir model) bir giriş metni alır, bu girişi kodlar (embeds) ve ardından bu kodu daha anlamlı bir metin olarak çevirmek için bir decoder kullanır.**
 
 
-1)**import json ile JSON**işlemleri için gerekli olan json modülünü içe aktarıyoruz.
+1)**import json ile JSON** işlemleri için gerekli olan json modülünü içe aktarıyoruz.
 
 with open("text.json", "r") as file: ile "text.json" adlı JSON dosyasını okuma modunda açıyoruz ve bu dosyayı file adlı bir değişkene atıyoruz.
 
