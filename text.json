@@ -1,0 +1,13 @@
+{
+    "word_to_number": {
+        "merhaba": 1,
+        "nasılsın": 2,
+        "teşekkürler": 3
+    },
+    "responses": {
+        "1": "Merhaba! Nasıl yardımcı olabilirim?",
+        "2": "Ben bir yapay zeka modeliyim, bu yüzden duygularım yok, ama size yardımcı olmaktan mutluluk duyarım.",
+        "3": "Rica ederim. Başka bir sorunuz var mı?"
+    }
+}
+
