@@ -1,12 +1,10 @@
-# decoder
+# Decoder
 Decoder, özellikle dil işleme ve yapay zeka alanlarında kullanılan bir terimdir. Decoder, kodlanmış veriyi veya bilgiyi anlamlı bir forma çevirmek için kullanılan bir bileşendir. Encoder ile kodlanmış veriyi, orijinal veya anlamlı bir formata dönüştürmek amacıyla kullanılır.
 
 Decoder terimi, özellikle dil modelleri ve yapay zeka alanında sıkça kullanılır. Örneğin, bir dil modeli (örneğin, bir metin oluşturan veya anlam çıkaran bir model) bir giriş metni alır, bu girişi kodlar (embeds) ve ardından bu kodu daha anlamlı bir metin olarak çevirmek için bir decoder kullanır.
 
 
-
-
-import json ile JSON işlemleri için gerekli olan json modülünü içe aktarıyoruz.
+--import json ile JSON işlemleri için gerekli olan json modülünü içe aktarıyoruz.
 
 with open("text.json", "r") as file: ile "text.json" adlı JSON dosyasını okuma modunda açıyoruz ve bu dosyayı file adlı bir değişkene atıyoruz.
 
