@@ -6,7 +6,7 @@
 
 **1)**import json ile JSON** işlemleri için gerekli olan json modülünü içe aktarıyoruz.**
 
-with open("text.json", "r") as file: ile "text.json" adlı JSON dosyasını okuma modunda açıyoruz ve bu dosyayı file adlı bir değişkene atıyoruz.
+**with open("text.json", "r") as file: ile "text.json" adlı JSON dosyasını okuma modunda açıyoruz ve bu dosyayı file adlı bir değişkene atıyoruz.**
 
 data = json.load(file) ile JSON dosyasındaki verileri data adlı bir sözlüğe yüklüyoruz. Bu sözlük, "word_to_number" ve "responses" adlı iki anahtar ile iki alt sözlüğü içerir.
 
