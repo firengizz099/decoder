@@ -18,9 +18,9 @@
 
 **5)**while True:** ile sonsuz bir döngü başlatıyoruz. Kullanıcı her seferinde bir giriş yapar.**
 
-user_input = input("Kullanıcı: ") ile kullanıcıdan bir giriş alıyoruz.
+**user_input = input("Kullanıcı: ") ile kullanıcıdan bir giriş alıyoruz.**
 
-response = get_response(user_input, data) ile kullanıcının girişini get_response fonksiyonuna veriyoruz ve geri dönen yanıtı alıyoruz.
+**response = get_response(user_input, data) ile kullanıcının girişini get_response fonksiyonuna veriyoruz ve geri dönen yanıtı alıyoruz.**
 
 print("Chat Bot: ", response) ile Chat Bot'un yanıtını ekrana yazdırıyoruz.
 
