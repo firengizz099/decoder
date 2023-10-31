@@ -10,7 +10,7 @@
 
 **data = json.load(file) ile JSON dosyasındaki verileri data adlı bir sözlüğe yüklüyoruz. Bu sözlük, "word_to_number" ve "responses" adlı iki anahtar ile iki alt sözlüğü içerir.**
 
-2)**word_to_number = data["word_to_number"]** ile "word_to_number" adlı alt sözlüğü alıyoruz. Bu alt sözlüğü, kullanıcı girişlerini kodlamak için kullanacağız.
+**2)**word_to_number = data["word_to_number"]** ile "word_to_number" adlı alt sözlüğü alıyoruz. Bu alt sözlüğü, kullanıcı girişlerini kodlamak için kullanacağız.**
 
 3)**def decode(encoded_input, data):** ile decode adlı bir fonksiyon tanımlıyoruz. Bu fonksiyon, kodlanmış girişi kullanarak yanıtları almak için kullanılacak. Veritabanındaki "responses" alt sözlüğünden yanıtları döndürür.
 
