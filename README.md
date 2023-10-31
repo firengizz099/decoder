@@ -14,9 +14,9 @@
 
 **3)**def decode(encoded_input, data):** ile decode adlı bir fonksiyon tanımlıyoruz. Bu fonksiyon, kodlanmış girişi kullanarak yanıtları almak için kullanılacak. Veritabanındaki "responses" alt sözlüğünden yanıtları döndürür.**
 
-4)**def get_response(user_input, data):** ile get_response adlı bir fonksiyon tanımlıyoruz. Bu fonksiyon, kullanıcı girişini alır, eğer giriş veritabanındaki metinlerle eşleşirse kodlar ve yanıtı döndürür. Aksi takdirde, girişi doğrudan yanıt olarak döndürür.
+**4)**def get_response(user_input, data):** ile get_response adlı bir fonksiyon tanımlıyoruz. Bu fonksiyon, kullanıcı girişini alır, eğer giriş veritabanındaki metinlerle eşleşirse kodlar ve yanıtı döndürür. Aksi takdirde, girişi doğrudan yanıt olarak döndürür.**
 
-5)**while True:** ile sonsuz bir döngü başlatıyoruz. Kullanıcı her seferinde bir giriş yapar.
+**5)**while True:** ile sonsuz bir döngü başlatıyoruz. Kullanıcı her seferinde bir giriş yapar.**
 
 user_input = input("Kullanıcı: ") ile kullanıcıdan bir giriş alıyoruz.
 
