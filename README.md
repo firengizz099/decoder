@@ -8,7 +8,7 @@
 
 **with open("text.json", "r") as file: ile "text.json" adlı JSON dosyasını okuma modunda açıyoruz ve bu dosyayı file adlı bir değişkene atıyoruz.**
 
-data = json.load(file) ile JSON dosyasındaki verileri data adlı bir sözlüğe yüklüyoruz. Bu sözlük, "word_to_number" ve "responses" adlı iki anahtar ile iki alt sözlüğü içerir.
+**data = json.load(file) ile JSON dosyasındaki verileri data adlı bir sözlüğe yüklüyoruz. Bu sözlük, "word_to_number" ve "responses" adlı iki anahtar ile iki alt sözlüğü içerir.**
 
 2)**word_to_number = data["word_to_number"]** ile "word_to_number" adlı alt sözlüğü alıyoruz. Bu alt sözlüğü, kullanıcı girişlerini kodlamak için kullanacağız.
 
