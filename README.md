@@ -22,6 +22,6 @@
 
 **response = get_response(user_input, data) ile kullanıcının girişini get_response fonksiyonuna veriyoruz ve geri dönen yanıtı alıyoruz.**
 
-print("Chat Bot: ", response) ile Chat Bot'un yanıtını ekrana yazdırıyoruz.
+**print("Chat Bot: ", response) ile Chat Bot'un yanıtını ekrana yazdırıyoruz.**
 
 **Bu kod, kullanıcı girişlerini kodlamak ve bu kodları kullanarak yanıtlar almak için bir veritabanını kullanır. JSON dosyasındaki veriler, kullanıcı girişlerini tanımlamak ve bu girişlere karşılık gelen yanıtları içerir. Kullanıcı girişi veritabanındaki metinlerle eşleşirse, ilgili yanıt döndürülür; aksi takdirde, kullanıcı girişi doğrudan yanıt olarak döndürülür.**
